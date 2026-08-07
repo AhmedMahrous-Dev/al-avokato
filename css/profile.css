@@ -1,0 +1,70 @@
+
+        body {
+            background: #f7f7f7;
+            font-family: "Cairo", sans-serif;
+        }
+
+        /* الهيدر */
+        .profile-header {
+            background: linear-gradient(135deg, #111, #b8860b);
+            color: white;
+            padding: 70px 0;
+            text-align: center;
+        }
+
+        /* الكارت */
+        .profile-card {
+            background: white;
+            margin-top: -50px;
+            border-radius: 25px;
+            padding: 35px;
+            box-shadow: 0 10px 30px #0002;
+        }
+
+        /* الصورة */
+        .lawyer-image {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #c89b3c;
+        }
+
+        /* البيانات */
+        .info-box {
+            background: #fafafa;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            height: 100%;
+        }
+
+        .info-box i {
+            font-size: 25px;
+            color: #c89b3c;
+        }
+
+        /* المهارات */
+        .skill {
+            display: inline-block;
+            background: #c89b3c;
+            color: white;
+            padding: 8px 18px;
+            border-radius: 30px;
+            margin: 5px;
+        }
+
+        /* الأزرار */
+        .btn-gold {
+            background: #c89b3c;
+            color: white;
+            border-radius: 30px;
+            padding: 12px 35px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-gold:hover {
+            background: #a67c18;
+            color: white;
+        }

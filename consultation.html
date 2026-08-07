@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>الاستشارة القانونية</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/chat.css">
+
+      <link rel="icon" type="image/png" href="IMG/6012537899385031935_121.jpg">
+
+</head>
+
+<body>
+
+<div class="container-fluid p-0">
+
+    <!-- Header -->
+
+    <div class="chat-header">
+
+        <div class="lawyer-info">
+
+            <img id="lawyerImage"
+            src="https://via.placeholder.com/60"
+            class="lawyer-image">
+
+            <div>
+
+                <h5 id="lawyerName">
+                    المحامي
+                </h5>
+
+                <span class="online">
+
+                    <i class="fa-solid fa-circle"></i>
+
+                    متصل الآن
+
+                </span>
+
+            </div>
+
+        </div>
+
+        <a href="index.html" class="back">
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+
+
+    <!-- الرسائل -->
+
+    <div class="chat-body" id="chatBody">
+
+        <div class="message lawyer">
+
+            أهلاً بك 👋
+
+            <span>10:20</span>
+
+        </div>
+
+        <div class="message lawyer">
+
+            كيف أستطيع مساعدتك؟
+
+            <span>10:20</span>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- الكتابة -->
+
+    <div class="chat-footer">
+
+        <button class="icon">
+
+            <i class="fa-regular fa-face-smile"></i>
+
+        </button>
+
+        <button class="icon">
+
+            <i class="fa-solid fa-paperclip"></i>
+
+        </button>
+
+        <input
+
+        type="text"
+
+        id="message"
+
+        placeholder="اكتب رسالتك...">
+
+        <button
+
+        class="send"
+
+        onclick="sendMessage()">
+
+            <i class="fa-solid fa-paper-plane"></i>
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="js/chat.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>بيانات الاستشارة</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<link rel="stylesheet" href="css/consultation-form.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container py-5">
+
+<div class="consult-card">
+
+<div class="text-center mb-4">
+
+<i class="fa-solid fa-scale-balanced consult-icon"></i>
+
+<h2>بيانات الاستشارة</h2>
+
+<p>
+
+يرجى الإجابة على الأسئلة التالية حتى يتمكن المحامي من فهم حالتك قبل بدء المحادثة.
+
+</p>
+
+</div>
+
+<form id="consultForm">
+
+<div class="mb-4">
+
+<label class="form-label">
+
+الخلاف أو النزاع مع من؟
+
+</label>
+
+<select
+class="form-select"
+id="party">
+
+<option value="">اختر...</option>
+
+<option>أهالي أو جيران</option>
+
+<option>أصدقاء</option>
+
+<option>عمل</option>
+
+<option>جهة عمل</option>
+
+<option>شركة</option>
+
+<option>شخص غريب</option>
+
+</select>
+
+</div>
+
+<div class="mb-4">
+
+<label class="form-label">
+
+متى بدأ النزاع أو ما هو تاريخ نشوئه؟
+
+</label>
+
+<input
+type="text"
+class="form-control"
+id="date"
+placeholder="مثال: منذ شهرين">
+
+</div>
+
+<div class="mb-4">
+
+<label class="form-label">
+
+هل تم إجراء أي محاولات لحل المشكلة ودياً؟
+
+</label>
+
+<select
+class="form-select"
+id="friendly">
+
+<option>نعم</option>
+
+<option>لا</option>
+
+</select>
+
+</div>
+
+<div class="mb-4">
+
+<label class="form-label">
+
+هل تواصلت مع محامٍ آخر؟
+
+</label>
+
+<select
+class="form-select"
+id="previous">
+
+<option>نعم، تم الحصول على استشارة سابقاً</option>
+
+<option>لا، لم أتواصل مع محامٍ آخر</option>
+
+</select>
+
+</div>
+
+<div class="mb-4">
+
+<label class="form-label">
+
+اكتب تفاصيل المشكلة
+
+</label>
+
+<textarea
+class="form-control"
+rows="6"
+id="details"></textarea>
+
+</div>
+
+<button
+class="btn btn-send w-100"
+type="submit">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+إرسال وبدء المحادثة
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="js/consultation-form.js"></script>
+
+</body>
+
+</html>
